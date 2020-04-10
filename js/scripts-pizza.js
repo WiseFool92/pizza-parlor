@@ -47,7 +47,7 @@ Parlor.prototype.pizzaPrice = function() {
   if (this.delivery === "dine in") {
     this.calculatePrice += 0;
   } else this.calculatePrice += 5;
-
+  console.log(calculatePrice)
   return this.calculatePrice;
 }
 
@@ -56,7 +56,18 @@ Parlor.prototype.pizzaPrice = function() {
 $(document).ready(function() {
 
   $("form").submit(function(event) {
-  event.preventDefault();
+    event.preventDefault();
 
+    var
+    var
+    var
+    var
+    var
+
+    $(".cost").show();
+    $("").text();
+    $("").text();
+    $("").text();
+    $("").text();
   })
 })
