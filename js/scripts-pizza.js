@@ -10,13 +10,13 @@ function Parlor (size, toppings, quantity, delivery) {
 Parlor.prototype.pizzaPrice = function() {
   var calculatePrice = 0;
   // Calculates cost based on size
-  if (this.size === "12") {
+  if (this.size === "12in") {
     this.calculatePrice = 12;
-  } else if (this.size === "14") {
+  } else if (this.size === "14in") {
     this.calculatePrice = 14;
-  } else if (this.size === "16") {
+  } else if (this.size === "16in") {
     this.calculatePrice = 16;
-  } else if (this.size === "20") {
+  } else if (this.size === "20in") {
     this.calculatePrice = 20;
   }
   // Calculates cost based on # of toppings
@@ -47,7 +47,6 @@ Parlor.prototype.pizzaPrice = function() {
   if (this.delivery === "dine in") {
     this.calculatePrice += 0;
   } else this.calculatePrice += 5;
-  console.log(calculatePrice)
   return this.calculatePrice;
 }
 
