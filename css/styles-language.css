@@ -1,0 +1,33 @@
+.title .well h {
+  color: darkmagenta;
+  padding: 10px;
+  margin: 2px;
+  border: 2px darkslateblue;
+}
+.title .well p {
+  color: crimson;
+  padding: 10px;
+  margin: 2px;
+}
+img {
+  padding: 10px;
+  margin: 2px;
+}
+.container .well .jumbotron #radio h1 {
+  color: darkblue;
+}
+.container {
+  float: left;
+}
+.container1 {
+  float: right;
+}
+.container1 .well .jumbotron #a-winner .hidden p {
+  padding: 10px;
+  margin: 2px;
+  border: 10px olivedrab;
+  color: darkgreen;
+}
+.hidden {
+  display: none;
+}
