@@ -19,7 +19,7 @@ img {
 }
 
 .container {
-  background-image: url("/img/serene.jpg");
+  background-image: url(https://i.pinimg.com/originals/9f/6b/af/9f6baf4ae424100c8fe8229ab82649b3.png);
   background-color: green; 
   height: 500px; 
   background-position: center; 
@@ -28,4 +28,9 @@ img {
 }
 .nav {
   display: block;
+  padding: 10px;
+  margin: 2px;
+}
+#output {
+  color: crimson;
 }

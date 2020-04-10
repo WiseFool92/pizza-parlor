@@ -33,4 +33,6 @@ img {
 }
 .nav {
   display: block;
+  padding: 10px;
+  margin: 2px;
 }

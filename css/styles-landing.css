@@ -16,4 +16,10 @@ h1 {
 }
 .nav {
   display: block;
+  padding: 10px;
+  margin: 2px;
+}
+img {
+  padding: 10px;
+  margin: 2px;
 }
