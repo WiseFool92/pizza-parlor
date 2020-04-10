@@ -33,3 +33,6 @@ img {
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2px;
 }
+.cost {
+  display: none;
+}
