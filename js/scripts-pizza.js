@@ -7,7 +7,9 @@ function Parlor (size, toppings, quantity, forHereOrToGo) {
   this.forHereOrToGo = forHereOrToGo;
 }
 
-Parlor.prototype
+Parlor.prototype.pizzaPrice = function() {
+  var calculatePrice = 0;
+}
 
 //frontend UI logic
 
