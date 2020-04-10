@@ -63,12 +63,13 @@ $(document).ready(function() {
     var toppingsInput = $("#toppings").val();
     var quantityInput = $("#quantity").val();
     var deliveryInput = $("#delivery").val();
-    var newCost = new Cost(sizeInput, toppingsInput, quantityInput, deliveryInput);
-
+    var newCost = new Parlor(sizeInput, toppingsInput, quantityInput, deliveryInput);
+    // Displays the calculated costs to the user
     $(".cost").show();
-    $("").text();
-    $("").text();
-    $("").text();
-    $("").text();
+    $("#displaySize").text(sizeInput);
+    $("#displayToppings").text(toppingsInput);
+    $("#displayQuantity").text(quantityInput);
+    $("#displayDelivery").text(deliveryInput);
+    $("#displayCost").text(newCost.pizzaPrice());
   })
 })
