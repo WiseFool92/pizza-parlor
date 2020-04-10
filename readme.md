@@ -1,6 +1,6 @@
 # _Pizza Parlor_
 
-#### April 10rd, 2020
+#### April 10th, 2020
 
 ## Description
 

@@ -58,11 +58,12 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var
-    var
-    var
-    var
-    var
+    // Pulls the input values of the user on the HTML to calculate total cost
+    var sizeInput = $("#size").val();
+    var toppingsInput = $("#toppings").val();
+    var quantityInput = $("#quantity").val();
+    var deliveryInput = $("#delivery").val();
+    var newCost = new Cost(sizeInput, toppingsInput, quantityInput, deliveryInput);
 
     $(".cost").show();
     $("").text();
