@@ -34,6 +34,18 @@ Parlor.prototype.pizzaPrice = function() {
   } else if (this.toppings === 7) {
     this.calculatePrice += 7;
   }
+
+  if (this.quantity === "1") {
+    this.calculatePrice += 10;
+  } else if (this.quantity === "2") {
+    this.calculatePrice += 5;
+  } else if (this.quantity === "3") {
+    this.calculatePrice += 1;
+  }
+
+  if (this.delivery === "dine in") {
+    this.calculatePrice += 0;
+  } else this.calculatePrice += 5;
 }
 
 //frontend UI logic
