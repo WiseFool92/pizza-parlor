@@ -1,0 +1,19 @@
+.title .well h {
+  color: darkmagenta;
+  padding: 10px;
+  margin: 2px;
+  border: 2px darkslateblue;
+}
+.title .well p {
+  color: crimson;
+  padding: 10px;
+  margin: 2px;
+}
+.title .well {
+  background-image: linear-gradient(#010110, #031f53, #5ffbf1);
+  color: green;
+}
+img {
+  padding: 10px;
+  margin: 2px;
+}
