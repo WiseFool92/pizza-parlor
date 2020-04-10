@@ -7,12 +7,14 @@ function Parlor (size, toppings, quantity, forHereOrToGo) {
   this.forHereOrToGo = forHereOrToGo;
 }
 
+Parlor.prototype
+
 //frontend UI logic
 
 $(document).ready(function() {
 
   $("form").submit(function(event) {
   event.preventDefault();
-  
+
   })
 })

@@ -22,3 +22,14 @@ img {
   padding: 10px;
   margin: 2px;
 }
+.jumbotron {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5b3839470dbda30e36fd1f66/1530468638619-ZIEGK0MRQVTWNSKFJH7P/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/fire-pizza.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.jumbotron h1 {
+  color: rgb(230, 230, 5);
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
