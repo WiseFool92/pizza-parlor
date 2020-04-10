@@ -9,6 +9,7 @@ function Parlor (size, toppings, quantity, delivery) {
 
 Parlor.prototype.pizzaPrice = function() {
   var calculatePrice = 0;
+  // Calculates cost based on size
   if (this.size === "12") {
     this.calculatePrice = 12;
   } else if (this.size === "14") {
@@ -18,7 +19,7 @@ Parlor.prototype.pizzaPrice = function() {
   } else if (this.size === "20") {
     this.calculatePrice = 20;
   }
-
+  // Calculates cost based on # of toppings
   if (this.toppings === 1) {
     this.calculatePrice += 1;
   } else if (this.toppings === 2) {
@@ -34,7 +35,7 @@ Parlor.prototype.pizzaPrice = function() {
   } else if (this.toppings === 7) {
     this.calculatePrice += 7;
   }
-
+  // Calculates cost based on quantity discount
   if (this.quantity === "1") {
     this.calculatePrice += 10;
   } else if (this.quantity === "2") {
@@ -42,10 +43,12 @@ Parlor.prototype.pizzaPrice = function() {
   } else if (this.quantity === "3") {
     this.calculatePrice += 1;
   }
-
+  // Calculates cost based on if it was delivered or not
   if (this.delivery === "dine in") {
     this.calculatePrice += 0;
   } else this.calculatePrice += 5;
+
+  return this.calculatePrice;
 }
 
 //frontend UI logic
