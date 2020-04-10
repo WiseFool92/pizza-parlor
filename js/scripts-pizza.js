@@ -59,7 +59,14 @@ $(document).ready(function() {
 
     // Pulls the input values of the user on the HTML to calculate total cost
     var sizeInput = $("#size").val();
-    var toppingsInput = $("#toppings").val();
+//    var toppingsInput = $("#toppings").val();
+    var toppingsInput = 0;
+    for (i=0;i<document.zaa.topping.length;i++) {
+      if (document.zaa.topping[i].checked==true){
+        toppingsInput+=1;
+      }
+    }
+
     var quantityInput = $("#quantity").val();
     var deliveryInput = $("#delivery").val();
     var newCost = new Parlor(sizeInput, toppingsInput, quantityInput, deliveryInput);
