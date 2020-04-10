@@ -45,15 +45,12 @@ git clone {link to repository}
 #### Pizza Parlor
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
-| The program returns a range of numbers from 0 to the user's input in an array | '4' | '0, 1, 2, 3, 4'  |
-| The program replaces one with "Beep" | '1' | 'Beep' |
-| The program replaces two with "Boop" | '2' | 'Boop' |
-| The program replaces three with "Won't you be my neighbor?" | '3' | 'Won't you be my neighbor?' |
-| Exceptions to the rules | ' ' | ' ' |
-| The program replaces any number containing one with "Beep" | '1' , '13' | 'Beep' , 'Beep' |  
-| The program replaces any number containing two with "Boop" | '2' , '21' | 'Boop' , 'Boop' |
-| The program replaces any number containing three with "Won't you be my neighbor?" | '3' , '32' | 'Won't you be my neighbor?' , 'Won't you be my neighbor?' |
-
+| The user to chooses a size | '12in, 14in, 16in' | '12in, 14in, 16in' |
+| The user to selects a topping | 'Onion' | 'Onion' |
+| The user can checkout with a cost to the pizza | '12in-Cheese' , '14in-Garlic, Tomatoe, Spinach' | '$1 per inch, 1$ per topping' |
+| The user can select multiple toppings | 'Garlic, Tomatoe, Spinach' | 'Garlic, Tomatoe, Spinach' |
+| The user can review their order via links that can be clicked to reveal details | 'Tony's' | '16in - Ham & Pineapple for $18' |
+| The user can get delivery and input their address | '132 wallaby way sydney Australia' | 'Tony's $18 - 16in - Ham & Pineapple to be delivered to 132 Wallaby Way Sydney Australia' |
 
 ---
 ## Known Bugs
