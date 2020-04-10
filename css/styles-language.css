@@ -31,3 +31,6 @@ img {
 .hidden {
   display: none;
 }
+.nav {
+  display: block;
+}

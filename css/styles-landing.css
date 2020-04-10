@@ -1,9 +1,6 @@
 .jumbotron h2 {
   color: red;
 }
-img {
-  float: right;
-}
 h1 {
   color: blueviolet;
 }
@@ -16,4 +13,7 @@ h1 {
   color: rgb(255, 0, 212);
   padding: 10px;
   margin: 10px;
+}
+.nav {
+  display: block;
 }
