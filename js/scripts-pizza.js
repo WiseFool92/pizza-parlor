@@ -72,10 +72,14 @@ $(document).ready(function() {
     var newCost = new Parlor(sizeInput, toppingsInput, quantityInput, deliveryInput);
     // Displays the calculated costs to the user
     $(".cost").show();
-    $("#displaySize").text(sizeInput);
-    $("#displayToppings").text(toppingsInput);
-    $("#displayQuantity").text(quantityInput);
-    $("#displayDelivery").text(deliveryInput);
+    $("#displaySize").text(newCost.size);
+    $("#displayToppings").text(newCost.toppings);
+    $("#displayQuantity").text(newCost.quantity);
+    $("#displayDelivery").text(newCost.delivery);
+    // $("#displaySize").text(sizeInput);
+    // $("#displayToppings").text(toppingsInput);
+    // $("#displayQuantity").text(quantityInput);
+    // $("#displayDelivery").text(deliveryInput);
     $("#displayCost").text(newCost.pizzaPrice());
   })
 })
